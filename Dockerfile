@@ -12,7 +12,7 @@ RUN apt-get install git
 RUN apt-get install openssh-server openssh-client
 
 #Creating the working directory for the code to be run in.
-ADD /App
+ADD /App /App
 WORKDIR /App
 
 #Running the makefile to create a executable so we can see the calculator in action.

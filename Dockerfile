@@ -6,10 +6,10 @@ RUN apt-get update -y && apt-get upgrade -y
 
 #Installing necessary packages to run the calculator program.
 RUN apt-get install build-essential -y
-RUN apt-get install make
-RUN apt-get install g++
-RUN apt-get install git
-RUN apt-get install openssh-server openssh-client
+RUN apt-get install make -y
+RUN apt-get install g++ -y
+RUN apt-get install git -y
+RUN apt-get install openssh-server openssh-client -y
 
 #Creating the working directory for the code to be run in.
 ADD /App /App

@@ -17,3 +17,6 @@ WORKDIR /App
 
 #Running the makefile to create a executable so we can see the calculator in action.
 RUN make
+
+#Esposing the port to allow connection in
+EXPOSE 9090

@@ -18,3 +18,5 @@ RUN make
 EXPOSE 9090
 
 RUN tar -czvf build.tar.gz /App/Calculator
+
+Run ls

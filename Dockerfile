@@ -16,3 +16,5 @@ RUN make
 
 #Esposing the port to allow connection in
 EXPOSE 9090
+
+RUN tar -czvf build.tar.gz /App/Calculator

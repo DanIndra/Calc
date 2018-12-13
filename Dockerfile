@@ -5,11 +5,7 @@ FROM ubuntu:18.04
 RUN apt-get update -y && apt-get upgrade -y
 
 #Installing necessary packages to run the calculator program.
-RUN apt-get install build-essential -y
-RUN apt-get install make -y
-RUN apt-get install g++ -y
-RUN apt-get install git -y
-RUN apt-get install openssh-server openssh-client -y
+RUN apt-get install build-essential -y make g++ git openssh-server openssh-client
 
 #Creating the working directory for the code to be run in.
 ADD /App /App

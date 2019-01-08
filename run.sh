@@ -1,2 +1,2 @@
 #Executable script to run the docker container
-#Stil under construction
+docker run -p 9090 calculator ./Calculator

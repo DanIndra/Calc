@@ -8,3 +8,5 @@ downloaded and ran on other machines.<br />
   -- Third implement Jenkins, making sure it still builds and runs      --WIP <br />
   -- Fourth update jenkins to upload compiled code to FTP server        --WIP <br />
   -- Fifth is to test the compiled code on various different machines   --WIP <br />
+
+Test on Tags
